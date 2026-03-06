@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "customgameicon",
+	"version": "${version}",
+	"name": "CustomGameIcon",
+	"description": "Allows players to change the Minecraft taskbar icon using custom PNG files placed in the config folder.",
+	"authors": [
+		"_Pheonix"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/customgameicon"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/customgameicon/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.pheonix.customgameicon.CustomGameIconClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
